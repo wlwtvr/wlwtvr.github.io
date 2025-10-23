@@ -4,10 +4,10 @@
   "type": "module",
   "description": "Halide is a new, minimalist, responsive portfolio website designed for photographers and still image creators",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "build": "bunx @11ty/eleventy",
+    "watch": "bunx @11ty/eleventy --watch",
+    "serve": "bunx @11ty/eleventy --serve",
+    "debug": "DEBUG=* bunx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
